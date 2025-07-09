@@ -24,3 +24,6 @@ Thermistor <br/>
 8x8 LED <br/>
 Power Supply <br/>
 RTC <br/>
+
+### Homework:
+Make a LED light up, and make led delay do things
