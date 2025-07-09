@@ -21,3 +21,4 @@ Ball Switch Tilt Sensor <br/>
 Transistors <br/>
 Capacitors <br/>
 Thermistor <br/>
+8x8 LED <br/>
