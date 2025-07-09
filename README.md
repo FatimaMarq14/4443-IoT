@@ -1,10 +1,8 @@
 ## Fatima Marquez
+#### Repo: 4443-MobileApps
+#### Email: fnmarquez0414@my.msutexas.edu
 
-## 4443-IoT
-
-## Email: fnmarquez0414@my.msutexas.edu
-
-## FatimaMarq14
+## Repo Username: FatimaMarq14
 
 #### Image:
 <img src="https://images2.imgbox.com/45/a6/gkic7bME_o.jpg" width="200">
