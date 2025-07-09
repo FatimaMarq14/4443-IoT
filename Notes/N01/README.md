@@ -22,3 +22,5 @@ Transistors <br/>
 Capacitors <br/>
 Thermistor <br/>
 8x8 LED <br/>
+Power Supply <br/>
+RTC <br/>
