@@ -44,9 +44,9 @@ void setup() {
   pinMode(GREEN, OUTPUT);
   pinMode(BLUE, OUTPUT);
 
-  digitalWrite(RED, LOW);    // Turn RED OFF
-  digitalWrite(GREEN, LOW); // Turn GREEN OFF
-  digitalWrite(BLUE, HIGH);  // Turn BLUE ON
+  digitalWrite(RED, HIGH);    // Turn RED OFF
+  digitalWrite(GREEN, HIGH); // Turn GREEN OFF
+  digitalWrite(BLUE, LOW);  // Turn BLUE ON
 }
 ```
 ## Delay Single LED Light up
@@ -86,7 +86,7 @@ void loop() {
 
 ## Potentiometer 10k
 
-Finally, I added the potentiometer to the project to test out its functions. This required minimal addition to the arduino and a couple of changes to the code. <br/>
+Finally, I added the potentiometer to the project to test out its functions. This required minimal addition to the arduino (potentiometer and male to female wire) and a couple of changes to the code. <br/>
 
 ![image](https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A02/Delay%20LED.jpg)
 
