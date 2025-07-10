@@ -88,7 +88,7 @@ void loop() {
 
 Finally, I added the potentiometer to the project to test out its functions. This required minimal addition to the arduino and a couple of changes to the code. <br/>
 
-![image]()
+![image](https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A02/Delay%20LED.jpg)
 
 
 A potentiometer was connected to analog input A0. The other two pins are connected to 5v and GND. Its value is read as analog inout **potValue** where it ranges from 0 to 1023. This allows the range to be divided into 3 segments:
