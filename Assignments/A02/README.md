@@ -5,7 +5,7 @@ The following is where I am getting comfortable with the arduino. Here I will go
 ## Single LED Light up
 ##### Here I will make a RGB LED light up using Arduino IDE
 
-insert phone image here
+![image]()
 
 
 
@@ -87,6 +87,10 @@ void loop() {
 ## Potentiometer 10k
 
 Finally, I added the potentiometer to the project to test out its functions. This required minimal addition to the arduino and a couple of changes to the code. <br/>
+
+![image]()
+
+
 A potentiometer was connected to analog input A0. The other two pins are connected to 5v and GND. Its value is read as analog inout **potValue** where it ranges from 0 to 1023. This allows the range to be divided into 3 segments:
 1. 0 to 340
    - The RED LED brightness changes smoothly from dim (0) to bright (255) as the potentiometer is turned.
