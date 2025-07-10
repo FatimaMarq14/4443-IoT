@@ -10,7 +10,7 @@ insert phone image here
 
 
 ### Connection Schematic
-insert image here
+![Connection Schematic](Assignments/A02/Screenshot 2025-07-09 224117.png)
 
 A connection schematic, also known as a wiring diagram, is a visual representation of how electrical components are physically connected in a circuit. Here I used:
 - (1) x Elegoo Uno R3
