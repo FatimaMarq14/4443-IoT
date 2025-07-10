@@ -5,7 +5,7 @@ The following is where I am getting comfortable with the arduino. Here I will go
 ## Single LED Light up
 ##### Here I will make a RGB LED light up using Arduino IDE
 
-![image]()
+![image](https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A02/Intro%20LED.jpg)
 
 
 
