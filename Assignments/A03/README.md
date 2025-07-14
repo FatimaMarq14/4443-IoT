@@ -7,7 +7,7 @@ The following is where I am getting comfortable with the arduino. Here I will go
 *insert image
 
 ### Connection Schematic
-![image](https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A03/Servo%20Connection%20Schematic.png)
+<img src="https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A03/Servo%20Connection%20Schematic.png" width="400">
 
 A connection schematic, also known as a wiring diagram, is a visual representation of how electrical components are physically connected in a circuit. Here I used:
 - (1) x Elegoo Uno R3
@@ -18,9 +18,9 @@ A servo can only rotate 180 degrees. Its conrolled by sending electrical pulses 
 
 ### How It Works:
 - The servo has 3 wires
-  - brown
-  - red
-  - 
+  - brown wire is the ground wire connected to the GND of the arduino
+  - red wire is the power wire connected to the 5v of the arduino
+  - orange wire is the signal wire connected to the Dig#9 port of the arduino
 
 ### Arduino Code:
 ```cpp
