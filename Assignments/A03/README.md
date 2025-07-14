@@ -23,6 +23,8 @@ A servo can only rotate 180 degrees. Its conrolled by sending electrical pulses 
   - orange wire is the signal wire connected to the Dig#9 port of the arduino
 
 ### Arduino Code:
+
+##### Before you can run this, make sure that you have installed the _Servo_ library or re-install it, if necessary. Otherwise, your code won't work.
 ```cpp
 #include <Servo.h>
 /* After including the corresponding libraries,
