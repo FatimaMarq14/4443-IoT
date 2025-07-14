@@ -4,10 +4,10 @@ The following is where I am getting comfortable with the arduino. Here I will go
 
 ## Servo
 ##### Here I will make 
-![image](https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A02/Intro%20LED.jpg)
+*insert image
 
 ### Connection Schematic
-![image](https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A02/Intro%20LED.jpg)
+![image](https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A03/Servo%20Connection%20Schematic.png)
 
 A connection schematic, also known as a wiring diagram, is a visual representation of how electrical components are physically connected in a circuit. Here I used:
 - (1) x Elegoo Uno R3
