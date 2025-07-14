@@ -3,8 +3,7 @@
 The following is where I am getting comfortable with the arduino. Here I will go over different mini projects that I tested to get introduced to the basics.
 
 ## Servo
-##### Here I will make 
-*insert image
+<img src="https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A03/IMG_0192.jpg" width="400">
 
 ### Connection Schematic
 <img src="https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A03/Servo%20Connection%20Schematic.png" width="400">
