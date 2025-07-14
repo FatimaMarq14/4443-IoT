@@ -5,12 +5,10 @@ The following is where I am getting comfortable with the arduino. Here I will go
 ## Single LED Light up
 ##### Here I will make a RGB LED light up using Arduino IDE
 
-![image](https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A02/Intro%20LED.jpg)
-
-
+<img src ="https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A02/Intro%20LED.jpg" width="400">
 
 ### Connection Schematic
-![image](https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A02/Screenshot%202025-07-09%20224117.png)
+<img src = "https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/A02/Screenshot%202025-07-09%20224117.png" width="400">
 
 A connection schematic, also known as a wiring diagram, is a visual representation of how electrical components are physically connected in a circuit. Here I used:
 - (1) x Elegoo Uno R3
