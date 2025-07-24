@@ -4,7 +4,7 @@ The following is documentation on my process of creating a sonic LED Level Meter
 ## Projects: LED Level Meter
 <img src = "https://images2.imgbox.com/fc/8f/KC7Wtp0I_o.gif" width = "400">
 
-### Componets:
+### Componets I used:
 - (1) x Ultrasonic Distance Sensor
 - (1) x Breadboard
 - (1) x Arduino Uno
@@ -60,14 +60,14 @@ We use 0.034 because sound travels .034 cm per µs and divide it by 2 since soun
 GND is our ground 0V
 
 ### Arduino Code
-The following is the code I used to be able to get the Sonic Sensor working. 
+The following is the code I used to be able to get the Sonic Sensor working. The code also includes information on where the pins should connect from the breadboard to the arduino. 
 ```cpp
 // Ultrasonic Distance Measurement with HC-SR04
 
-const int trigPin = 11;   // TRIG pin of HC-SR04
-const int echoPin = 12;   // ECHO pin of HC-SR04
+const int trigPin = 11; // TRIG pin of HC-SR04
+const int echoPin = 12; // ECHO pin of HC-SR04
 
-const int green1 = 2;
+const int green1 = 2; 
 const int green2 = 3;
 const int yellow1 = 4;
 const int yellow2 = 5;
