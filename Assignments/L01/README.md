@@ -26,6 +26,7 @@ The Ultrasonic sensor has 4 pins
 - Trig
 - Echo
 - Gnd
+
 *image of pins here
 #### VCC 
 VCC is the power supply of the sensor. It requires a 5V where you connect it to the Vin of the arduino. 
