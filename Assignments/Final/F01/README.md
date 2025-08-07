@@ -62,9 +62,40 @@ I began with the Arduino Uno and a 2WD robotic car kit. I wanted to control the 
 
 ---
 
+## 🔩 Car Assembly
+
+The car frame was assembled by attaching:
+
+- **DC motors** to each side of the chassis using screws and brackets.
+- **L298N motor driver** placed centrally to balance weight.
+- **Battery holder** secured in the front.
+- **Caster wheel** on the back for mobility.
+- Components mounted with screws.
+
+This created a stable, mobile base for the bot.
+
+---
+
+## 🌀 Motors
+
+Two **DC motors** were used for movement, each connected to the **L298N motor driver** via its OUT1/OUT2 and OUT3/OUT4 terminals.
+
+The **IN1–IN4** pins of the L298N were connected to the ESP32 GPIO pins for directional control:
+- IN1 → GPIO 13
+- IN2 → GPIO 12
+- IN3 → GPIO 14
+- IN4 → GPIO 27
+
+The **EN-A** and **EN-B** pins were bridged or connected to 5V to keep the motors always enabled.
+
+Power was supplied to the motor driver via the battery pack, using 7.4V total from two 18650 batteries.
+
+---
+
 ### 📟 Playing with the LCD
 
-*Insert LCD image here*
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/774ecc44-b279-4502-a18c-fc0475b2412f" />
+
 
 - **What is it?** A screen that can display text or symbols.
 - **What I wanted:** Show basic info like connection status, "Hello World", or control feedback.
@@ -74,7 +105,8 @@ I began with the Arduino Uno and a 2WD robotic car kit. I wanted to control the 
 
 ### 🧩 Discovering I2C
 
-*Insert I2C image here*
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/51093530-ac4f-4a1d-88ef-9a006fe48631" />
+
 
 I learned about the **I2C protocol**, which allows multiple devices to communicate using just two wires (SDA and SCL). I switched to an **I2C backpack** for the LCD to save wiring space and reduce pin usage on the Arduino.
 
@@ -82,7 +114,8 @@ I learned about the **I2C protocol**, which allows multiple devices to communica
 
 ### 📦 HC-05 Bluetooth Module Arrives
 
-*Insert HC-05 image here*
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/a2da4ae3-a056-4ffa-81a0-67aa4a2686ce" />
+
 
 I was super excited to test the Bluetooth, but quickly ran into problems. I didn’t have enough GND pins on the Arduino, and the HC-05 needed special voltage treatment to avoid burning out.
 
@@ -122,7 +155,8 @@ At this point I was stressed, wires were flying everywhere, and I honestly thoug
 
 ### 🧠 Switching to ESP32
 Thankfully, my professor introduced me to the ESP32, a more powerful board with built-in Bluetooth and Wi-Fi. This solved everything:
-*Add image of ESP32 setup here*
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8cffaff3-6418-421d-bfbb-27934942a8a2" />
+
 
 - **What is it?** A more powerful microcontroller with **built-in** Bluetooth and Wi-Fi.
 - **Why it saved me:** It supports multiple serial communications and it has built in bluetooth which means I no longer needed the bluetooth module or the voltage divider.
