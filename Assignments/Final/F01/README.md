@@ -144,7 +144,6 @@ This project taught me a lot about:
 - How to manage power and wiring in real projects
 - Why choosing the right board matters
 
-It wasn’t easy, but seeing the robot move via Bluetooth and display text on the LCD was worth it.
+It wasn’t easy, but seeing the robot move via Bluetooth from my phone and display text on the LCD was worth it.
 
-[Click Here](..F03/)  to see more documentation and code.
 ---
