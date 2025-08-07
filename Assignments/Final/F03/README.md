@@ -1,26 +1,14 @@
-# 📡 ESP32 Development
+# 🤖 B.E.E.P. – Bot for Exploring Electronics and Programming
 
-This folder contains the code and setup used for ESP32-based development in this project.
+**Student Name:** Fatima Marquez
 
-## 📁 Contents
+## 🧠 Project Description
+This final project is a custom-built robot powered by an ESP32. It is capable of movement, displaying status on an LCD, and being controlled via Bluetooth. The project demonstrates skills in embedded systems, hardware integration, and Arduino programming.
 
-- Main code used for the ESP32
-- Bluetooth or Wi-Fi setup (if used)
-- Pin configuration and wiring notes
+## 📂 Code Explanation
 
-## 🔧 Features Tested
+| File Name            | Description                                         |
+|----------------------|-----------------------------------------------------|
+| `main.ino`           | Main Arduino code for ESP32                         |
 
-- Motor control
-- Bluetooth communication (HC-05)
-- LCD display (I2C)
-- Sensor input (if any)
 
-## 🛠️ Tools & Environment
-
-- ESP32 Dev Module
-- Arduino IDE or PlatformIO
-- Serial Monitor for debugging
-
-## 🧠 Notes
-
-This section was where final hardware integration took place. Replace this with logs, bugs encountered, and any issues solved.
