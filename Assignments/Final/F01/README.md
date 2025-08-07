@@ -41,7 +41,7 @@ At first, I thought it would be simple—connect the components, power them up, 
 | HC-05 Bluetooth Module | ❌    | Originally planned, not needed after ESP32     |
 | L298N Motor Driver     | ✅    | Controls the two DC motors                     |
 | I2C LCD Display        | ✅    | Shows messages/status updates                  |
-| Power Bank / 18650s    | ✅    | External power for motors and ESP32            |
+| Power Bank / Batteries    | ✅    | External power for motors and ESP32            |
 
 ---
 
