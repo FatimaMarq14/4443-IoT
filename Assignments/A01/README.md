@@ -1,11 +1,14 @@
-## Objective
-Set up a GitHub repository that will serve as the central hub for all of your assignments in this course. This repo is required, and should be structured and documented like a portfolio-quality project.
+## 🎯 Objective
 
-Each Assignment Folder README Each README.md inside an assignment folder should include:
+Set up a GitHub repository that will serve as the central hub for all of your assignments in this course. This repo is required and should be structured and documented like a portfolio-quality project.
 
-- Project Title
-- Student Name
-- Project Description (summary of the assignment goals)
-- Table of Files with Descriptions and Links
-- Run Instructions
-- Notes on Known Issues or Requirements
+### 📁 Each Assignment Folder Should Include a `README.md` with:
+
+- **Project Title**
+- **Student Name**
+- **Project Description** – Summary of the assignment goals.
+- **Table of Files** – With descriptions and links.
+- **Run Instructions**
+- **Notes** – Known issues, dependencies, or hardware requirements.
+
+---
