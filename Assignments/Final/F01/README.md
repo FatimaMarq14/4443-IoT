@@ -146,5 +146,5 @@ This project taught me a lot about:
 
 It wasn’t easy, but seeing the robot move via Bluetooth and display text on the LCD was worth it.
 
-[Click Here](F03/)  to see more documentation and code.
+[Click Here](Assignments/Final/F03/)  to see more documentation and code.
 ---
