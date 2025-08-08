@@ -1,4 +1,4 @@
-# 🤖 Bluetooth-Controlled Robot Car
+# 🤖 B.E.E.P. – Bot for Exploring Electronics and Programming
 
 ## 📌 Overview
 
@@ -183,9 +183,10 @@ After more research, I found that if my batteries are not fully charged or don�
 
 ## 🌱 Future Ideas
 
-- 🧊 3D-printed case for better protection and style
-- 🧠 Object avoidance using ultrasonic sensors
-- 🎙️ Voice-controlled commands via mobile assistant
+- 3D-printed case for better protection and style
+- Object avoidance using ultrasonic sensors
+- Voice-controlled commands via mobile assistant
+- Buzzer for sound
 
 ---
 
