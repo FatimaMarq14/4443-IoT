@@ -36,18 +36,27 @@ This final project is a custom-built robot powered by an ESP32. It is capable of
 
 ## 📂 In Depth Code Explanation
 
+This line of code is a preprocessor directive used in code that works with the RemoteXY platform, which allows you to create a mobile app interface to control the ESP32 over Bluetooth.
 ```cpp
-/****** BEEP: ESP32 + LCD + RemoteXY + L298N Motor Control ******/
-
 #define REMOTEXY_MODE__ESP32CORE_BLE
+```
+
+These are the libraries used that are explained above.
+```cpp
 #include <BLEDevice.h>
 #include <RemoteXY.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
+```
 
+When connecting to the app, other bluetooth modules also appear. Here we are giving the ESP32 to show up as **BEEP**, that way we are able to distinct it from the rest.
+```cpp
 // RemoteXY Bluetooth name
-#define REMOTEXY_BLUETOOTH_NAME "MANGOBOT"
+#define REMOTEXY_BLUETOOTH_NAME "BEEP"
+```
 
+Before setting up the code we first have to create the controller GUI from the RemoteXY website. Once we set up our controller GUI, the website will generate
+```cpp
 // RemoteXY GUI config
 #pragma pack(push, 1)
 uint8_t RemoteXY_CONF[] = {
@@ -59,7 +68,9 @@ uint8_t RemoteXY_CONF[] = {
   2,31,76,101,102,116,0,1,66,86,
   32,32,0,2,31,82,105,103,104,116,0
 };
+```
 
+```cpp
 struct {
   uint8_t btn_up;
   uint8_t btn_down;
@@ -68,21 +79,29 @@ struct {
   uint8_t connect_flag;
 } RemoteXY;
 #pragma pack(pop)
+```
 
+```cpp
 // LCD on I2C
 LiquidCrystal_I2C lcd(0x27, 16, 2);
+```
 
+```cpp
 // Motor pins
 const int IN1 = 13;
 const int IN2 = 12;
 const int IN3 = 14;
 const int IN4 = 27;
+```
 
+```cpp
 // Message to scroll
 String message = "    4443 - Internet of Things    ";
 unsigned long lastScroll = 0;
 int scrollDelay = 300;
+```
 
+```cpp
 void setup() {
   RemoteXY_Init();
 
@@ -101,7 +120,9 @@ void setup() {
 
   stopMotors(); // Ensure stopped on boot
 }
+```
 
+```cpp
 void loop() {
   RemoteXY_Handler();
 
