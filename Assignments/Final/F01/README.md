@@ -165,7 +165,7 @@ Thankfully, my professor introduced me to the ESP32, a board with built-in Bluet
 
 ### 📱 Remote XY App
 The app helped me connect my Iphone to the ESP32. Here, I designed a simple control panel with arrows for directions.
-<img width="400" height="400" alt="image" src="https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/Final/F01/Controller.PNG" />
+<img width="400" height="600" alt="image" src="https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/Final/F01/Controller.PNG" />
 
 I followed a youtube tutorial online https://remotexy.com/ and i was able to easily controll my phone to the bluetooth.
 
