@@ -31,3 +31,11 @@ This final project is a custom-built robot powered by an ESP32. It is capable of
 | Power Bank / Batteries | ✅    | External power for motors and ESP32            |
 
 ---
+
+## 📂 In Depth Code Explanation
+
+```cpp
+#include
+```
+
+---
