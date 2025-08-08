@@ -23,14 +23,6 @@ At first, I thought it would be simple—connect the components, power them up, 
 
 ---
 
-## 🌱 Future Ideas
-
-- 🧊 3D-printed case for better protection and style
-- 🧠 Object avoidance using ultrasonic sensors
-- 🎙️ Voice-controlled commands via mobile assistant
-
----
-
 ## 🧰 Components Used
 
 | Component              | Used? | Notes                                           |
@@ -171,11 +163,27 @@ I followed a youtube tutorial online https://remotexy.com/ and i was able to eas
 
 ---
 
+###  Final Problem
+When finally getting everything to work, I realized only one motor would run. I decided that maybe I didnt connect anything in properly or something was missing. I switched the wires ovver and still only one motor would run. I thought that potentially the motor driver went out. I switched it to a new one and had the same problem. After more research, I found that if my batteries are not fully chared or dont have enough power, then power will not go to the other motor.
+
+### Things I would do differently
+
+
+---
+
+## 🌱 Future Ideas
+
+- 🧊 3D-printed case for better protection and style
+- 🧠 Object avoidance using ultrasonic sensors
+- 🎙️ Voice-controlled commands via mobile assistant
+
+---
+
 ### 📱 Conclusion
 This project taught me a lot about:
 - How microcontrollers handle communication
 - How to manage power and wiring in real projects
-- Why choosing the right board matters
+- **Why choosing the right board matters**
 
 It wasn’t easy, but seeing the robot move via Bluetooth from my phone and display text on the LCD was worth it.
 
