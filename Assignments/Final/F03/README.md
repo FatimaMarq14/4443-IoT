@@ -41,7 +41,7 @@ This line of code is a preprocessor directive used in code that works with the R
 #define REMOTEXY_MODE__ESP32CORE_BLE
 ```
 
-These are the libraries used that are explained above.
+These are the libraries used.
 ```cpp
 #include <BLEDevice.h>
 #include <RemoteXY.h>
@@ -51,14 +51,12 @@ These are the libraries used that are explained above.
 
 When connecting to the app, other bluetooth modules also appear. Here we are giving the ESP32 to show up as **BEEP**, that way we are able to distinct it from the rest.
 ```cpp
-// RemoteXY Bluetooth name
 #define REMOTEXY_BLUETOOTH_NAME "BEEP"
 ```
 
-Before setting up the code we first have to create the controller GUI from the RemoteXY website. Once we set up our controller GUI, the website will generate
+Before setting up the code we first have to create the controller GUI from the RemoteXY website. This block of code defines the GUI layout for a Bluetooth-based control interface using RemoteXY.
 ```cpp
-// RemoteXY GUI config
-#pragma pack(push, 1)
+#pragma pack(push, 1) //memory alignment
 uint8_t RemoteXY_CONF[] = {
   255,4,0,0,0,64,0,19,0,0,
   0,0,31,1,106,200,1,1,4,0,
@@ -70,6 +68,7 @@ uint8_t RemoteXY_CONF[] = {
 };
 ```
 
+This struct is the main communication between the GUI app and the ESP32. 
 ```cpp
 struct {
   uint8_t btn_up;
@@ -78,41 +77,40 @@ struct {
   uint8_t btn_Right;
   uint8_t connect_flag;
 } RemoteXY;
-#pragma pack(pop)
+#pragma pack(pop) // restores memory alignment
 ```
 
+Here we are creating an LCD display object and naming it lcd. The 0x27 is the address of the LCD. It has 16 columns and 2 rows. 
 ```cpp
-// LCD on I2C
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 ```
-
+Here we are assigning the motor pin numbers.
 ```cpp
-// Motor pins
 const int IN1 = 13;
 const int IN2 = 12;
 const int IN3 = 14;
 const int IN4 = 27;
 ```
 
+Here we are setting a message that scrolls on the top line.
 ```cpp
-// Message to scroll
 String message = "    4443 - Internet of Things    ";
 unsigned long lastScroll = 0;
 int scrollDelay = 300;
 ```
 
+This function will run once the ESP32 is turned on.
 ```cpp
 void setup() {
-  RemoteXY_Init();
+  RemoteXY_Init(); // Initializes RemoteXY
 
-  // LCD Setup
-  Wire.begin(21, 22);
-  lcd.begin(16, 2);
-  lcd.backlight();
-  lcd.setCursor(0, 0);
+  Wire.begin(21, 22); // I2C Communication
+  lcd.begin(16, 2); // Initializes LCD
+  lcd.backlight(); // Turns on LCD backlight
+  lcd.setCursor(0, 0); 
   lcd.print("Starting MangoBot");
 
-  // Motor setup
+// Sets the motor driver control pins as output pins
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
   pinMode(IN3, OUTPUT);
@@ -122,11 +120,12 @@ void setup() {
 }
 ```
 
+This loop function is the robots runtime. It will continue running as long as the ESP32 has power.
 ```cpp
 void loop() {
-  RemoteXY_Handler();
+  RemoteXY_Handler(); //This updates what buttons are pressed on the phone.
 
-  // Scroll message
+  // Calls the scroll message
   scrollLCDMessage();
 
   // Handle motor control
@@ -153,7 +152,10 @@ void loop() {
 
   delay(50); // Keep things smooth
 }
+```
 
+I got this code when researching how to work the LCD with the ESP32 and came across how to have messages scroll. 
+```cpp
 // Scroll text on LCD line 0
 void scrollLCDMessage() {
   static int scrollIndex = 0;
@@ -170,14 +172,19 @@ void scrollLCDMessage() {
     }
   }
 }
+```
 
+Here we will see the updated status of the buttons pressed on the phone to the second line of the LCD.
+```cpp
 // LCD status on line 1
 void showDirection(String msg) {
   lcd.setCursor(0, 1);
   lcd.print("Moving: " + msg + "   ");
 }
+```
 
-// Motor functions
+This is how the motor will function. 
+```cpp
 void moveForward() {
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
