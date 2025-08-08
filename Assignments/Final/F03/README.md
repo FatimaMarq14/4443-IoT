@@ -13,6 +13,14 @@ This final project is a custom-built robot powered by an ESP32. It is capable of
 
 ---
 
+## 🛠️ Tools & Languages
+
+- Arduino IDE
+- C++ (Arduino)
+- RemoteXY App
+
+---
+
 ## 🧰 Components Used
 
 | Component              | Used? | Notes                                           |
@@ -23,10 +31,3 @@ This final project is a custom-built robot powered by an ESP32. It is capable of
 | Power Bank / Batteries | ✅    | External power for motors and ESP32            |
 
 ---
-
-## 🛠️ Tools & Languages
-
-- Arduino IDE
-- C++ (Arduino)
-- RemoteXY App
-- Multimeter (for testing voltage + continuity)
