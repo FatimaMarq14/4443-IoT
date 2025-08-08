@@ -104,7 +104,7 @@ Power was supplied to the motor driver via the battery pack, using 7.4V total fr
 
 ### 🧩 Discovering I2C
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/51093530-ac4f-4a1d-88ef-9a006fe48631" />
+<img width="400" height="400" alt="image" src="https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/Final/F01/I2C.jpeg" />
 
 
 I learned about the **I2C protocol**, which allows multiple devices to communicate using just two wires (SDA and SCL). I switched to an **I2C backpack** for the LCD to save wiring space and reduce pin usage on the Arduino.
