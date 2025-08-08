@@ -47,12 +47,6 @@ At first, I thought it would be simple—connect the components, power them up, 
 
 ## 🧪 Build Journal
 
-### 🧱 Starting Out
-
-I began with the Arduino Uno and a 2WD robotic car kit. I wanted to control the car using Bluetooth while showing text on an LCD. However, the Uno didn’t have enough serial ports or power to handle both the HC-05 and the LCD at the same time.
-
----
-
 ## 🔩 Car Assembly
 
 The car frame was assembled by attaching:
@@ -85,14 +79,19 @@ Power was supplied to the motor driver via the battery pack, using 7.4V total fr
 
 ---
 
+### 🧱 Starting Out
+
+I began with the Arduino Uno and a 2WD robotic car kit. I wanted to control the car using Bluetooth while showing text on an LCD. However, the Uno didn’t have enough serial ports or power to handle both the HC-05 and the LCD at the same time.
+
+---
+
 ### 📟 Playing with the LCD
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/774ecc44-b279-4502-a18c-fc0475b2412f" />
 
 
 - **What is it?** A screen that can display text or symbols.
-- **What I wanted:** Show basic info like connection status, "Hello World", or control feedback.
-- **What happened:** It worked alone, but not with the Bluetooth module connected.
+- **What I wanted:** Show basic info like connection status and control feedback.
 
 ---
 
