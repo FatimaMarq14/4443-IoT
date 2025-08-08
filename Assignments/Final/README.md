@@ -7,4 +7,4 @@ Welcome to the final project repository for my class. This project showcases my 
 | #   | Folder | Description            |
 |-----|--------|------------------------|
 | 1   | [F01](F01/) | Final Project Journey |
-| 2   | [F02](F03/) | Final Project   |
+| 2   | [F02](F03/) | Final Project Code   |
