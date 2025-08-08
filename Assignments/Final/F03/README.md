@@ -5,7 +5,7 @@
 ## 🧠 Project Description
 This final project is a custom-built robot powered by an ESP32. It is capable of movement, displaying status on an LCD, and being controlled via Bluetooth. The project demonstrates skills in embedded systems, hardware integration, and Arduino programming.
 
-## 📂 Code Explanation
+## 📂 Code
 
 | File Name            | Description                                         |
 |----------------------|-----------------------------------------------------|
@@ -14,28 +14,30 @@ This final project is a custom-built robot powered by an ESP32. It is capable of
 ---
 
 ## 🛠️ Tools & Languages
-
-- Arduino IDE
-- C++ (Arduino)
-- RemoteXY App
+| Component              | Notes                          |
+|------------------------|--------------------------------|
+| Language      | C++ (Arduino dialect)                   |
+| Platform      | ESP32                                   |
+| IDE           | Meant for the Arduino IDE or PlatformIO |
+| RemoteXY      | Bluetooth App                           |
 
 ---
 
-## 🧰 Components Used
+## 🔍 Type of Code:
 
-| Component              | Used? | Notes                                           |
-|------------------------|-------|-------------------------------------------------|
-| ESP32 Microcontroller  | ✅    | Final board used – built-in Bluetooth!         |
-| L298N Motor Driver     | ✅    | Controls the two DC motors                     |
-| I2C LCD Display        | ✅    | Shows messages/status updates                  |
-| Power Bank / Batteries | ✅    | External power for motors and ESP32            |
+| Libraries           | Notes                                    |
+|---------------------|------------------------------------------|
+| RemoteXY.h          | for Bluetooth GUI interface via RemoteXY |
+| LiquidCrystal_I2C.h | for I2C LCD screen control               |
+| Wire.h              |  I2C communication                       |
+| BLEDevice.h         | for Bluetooth communication on the ESP32 |
 
 ---
 
 ## 📂 In Depth Code Explanation
 
 ```cpp
-/****** MangoBot: ESP32 + LCD + RemoteXY + L298N Motor Control ******/
+/****** BEEP: ESP32 + LCD + RemoteXY + L298N Motor Control ******/
 
 #define REMOTEXY_MODE__ESP32CORE_BLE
 #include <BLEDevice.h>
