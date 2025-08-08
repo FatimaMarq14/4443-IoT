@@ -155,11 +155,9 @@ At this point I was stressed, wires were everywhere, and I honestly thought I mi
 ---
 
 ### 🧠 Switching to ESP32
-Thankfully, my professor introduced me to the ESP32, a more powerful board with built-in Bluetooth and Wi-Fi. This solved everything:
+Thankfully, my professor introduced me to the ESP32, a board with built-in Bluetooth and Wi-Fi. This solved everything:
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8cffaff3-6418-421d-bfbb-27934942a8a2" />
 
-
-- **What is it?** A more powerful microcontroller with **built-in** Bluetooth and Wi-Fi.
 - **Why it saved me:** It supports multiple serial communications and it has built in bluetooth which means I no longer needed the bluetooth module or the voltage divider.
 
   After switching to the ESP32, everything was much smoother and cleaner. My LCD worked perfectly and now I just needed to look into the bluetooth part. 
@@ -167,6 +165,7 @@ Thankfully, my professor introduced me to the ESP32, a more powerful board with 
 
 ### 📱 Remote XY App
 Here, I designed a simple control panel with arrows for direction and a connect button.
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8cffaff3-6418-421d-bfbb-27934942a8a2" />
 *Add screenshot of Remote XY app layout*
 
 The app helped me connect my Iphone to the ESP32. I followed a youtube tutorial online https://remotexy.com/ and i was able to easily controll my phone to the bluetooth. Now it was finally time to test my final code.
