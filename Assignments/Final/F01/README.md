@@ -20,7 +20,6 @@ At first, I thought it would be simple—connect the components, power them up, 
 - 📱 Bluetooth control using the RemoteXY app
 - 🖥️ LCD display to show live feedback and status
 - 🔄 Upgraded to ESP32 for built-in Bluetooth and more serial support
-- 🔌 Cleaner wiring and better power management
 
 ---
 
