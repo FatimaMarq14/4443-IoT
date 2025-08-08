@@ -8,4 +8,4 @@ Below is a list of assignments completed for this course, each with a dedicated 
 | 2 | [A02](A02/) | LED Blinking & Breadboard Basics |
 | 3 | [A03](A03/) | Servo Motor Introduction |
 | 4 | [L01](L01/) | Soldering a Sonic LED Level Meter |
-| 5 | [Final](Final/) | Final Project – ESP32 Smart Patrol Bot |
+| 5 | [Final](Final/) | Final Project – B.E.E.P. |
