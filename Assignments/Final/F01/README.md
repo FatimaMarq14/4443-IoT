@@ -1,4 +1,4 @@
-# 🤖 Bluetooth Controlled Robot
+# 🤖 B.E.E.P. – Bot for Exploring Electronics and Programming
 
 ## 📌 Overview
 
