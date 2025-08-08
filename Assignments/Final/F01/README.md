@@ -138,6 +138,7 @@ To get both the LCD and HC-05 working, I needed to make a **voltage divider** an
 
 ### 🔌 Discovering Voltage Dividers 
 This is the final image of me attempting to make the voltage divider. 
+
 <img width="400" height="400" alt="image" src= "https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/Final/F01/Voltage%20Divider.jpeg" />
 
 When I ran the code I did notice power going through both the bluetooth module and LCD screen which was a great relief for me! I was very excited and happy. However, when testing to get text on the LCD I saw nothing. This is where the next roadblobk came and had to find the problem. 
@@ -163,11 +164,20 @@ I followed a youtube tutorial online https://remotexy.com/ and i was able to eas
 
 ---
 
-###  Final Problem
-When finally getting everything to work, I realized only one motor would run. I decided that maybe I didnt connect anything in properly or something was missing. I switched the wires ovver and still only one motor would run. I thought that potentially the motor driver went out. I switched it to a new one and had the same problem. After more research, I found that if my batteries are not fully chared or dont have enough power, then power will not go to the other motor.
+## 🧪 Final Problem
 
-### Things I would do differently
+When finally getting everything to work, I realized only one motor would run. I decided that maybe I didn’t connect anything properly or something was missing. I switched the wires over, and still only one motor would run. I thought that potentially the motor driver went out. I switched it to a new one and had the same problem.
 
+After more research, I found that if my batteries are not fully charged or don’t have enough power, then power will not go to the other motor. This made me realize that I would need to get more power to be able to run both motors.
+
+---
+
+## 🔁 Things I Would Do Differently
+
+- I would research all the components and what is needed for the power setup before diving straight into the project.
+- I would test each part individually before connecting everything at once.
+- I would keep a log of which pins are connected to each component to avoid confusion later.
+- I would go into a deeper understand on how running power through components is important.
 
 ---
 
