@@ -146,11 +146,11 @@ To get both the LCD and HC-05 working, I needed to make a **voltage divider** an
 
 ### 🔌 Discovering Voltage Dividers 
 This is the final image of me attempting to make the voltage divider. 
-*Add image of voltage*
+<img width="400" height="400" alt="image" src= "https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/Final/F01/Voltage%20Divider.jpeg" />
 
 When I ran the code I did notice power going through both the bluetooth module and LCD screen which was a great relief for me! I was very excited and happy. However, when testing to get text on the LCD I saw nothing. This is where the next roadblobk came and had to find the problem. 
 
-At this point I was stressed, wires were flying everywhere, and I honestly thought I might not finish on time.
+At this point I was stressed, wires were everywhere, and I honestly thought I might not finish on time.
 
 ---
 
