@@ -76,6 +76,8 @@ This created a stable, mobile base for the bot.
 ---
 
 ## 🌀 Motors
+<img width="400" height="400" alt="image" src="https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/Final/F01/Motor%20Driver.jpeg" />
+
 
 Two **DC motors** were used for movement, each connected to the **L298N motor driver** via its OUT1/OUT2 and OUT3/OUT4 terminals.
 
