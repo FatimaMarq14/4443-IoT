@@ -10,7 +10,7 @@ At first, I thought it would be simple—connect the components, power them up, 
 
 ## 📸 Demo
 
-*(Insert GIF or image here)*  
+*GIF here*  
 ![Demo](demo.gif)
 
 ---
