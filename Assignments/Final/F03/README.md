@@ -18,7 +18,7 @@ This final project is a custom-built robot powered by an ESP32. It is capable of
 |------------------------|--------------------------------|
 | Language      | C++ (Arduino dialect)                   |
 | Platform      | ESP32                                   |
-| IDE           | Meant for the Arduino IDE or PlatformIO |
+| IDE           | Arduino IDE or PlatformIO               |
 | RemoteXY      | Bluetooth App                           |
 
 ---
