@@ -11,6 +11,7 @@ At first, I thought it would be simple—connect the components, power them up, 
 ## 📸 Demo
  
 ![Demo](0809.gif)
+![Demo](0810.gif)
 
 ---
 
