@@ -185,7 +185,7 @@ After more research, I found that if my batteries are not fully charged or donâ€
 
 - 3D-printed case for better protection and style
 - Object avoidance using ultrasonic sensors
-- Voice-controlled commands via mobile assistant
+- Voice-controlled commands via mobile
 - Buzzer for sound
 
 ---
