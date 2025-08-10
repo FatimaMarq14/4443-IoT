@@ -9,9 +9,8 @@ At first, I thought it would be simple—connect the components, power them up, 
 ---
 
 ## 📸 Demo
-
-*GIF here*  
-![Demo](demo.gif)
+ 
+![Demo](0809.gif)
 
 ---
 
