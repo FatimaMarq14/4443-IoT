@@ -160,6 +160,7 @@ The app helped me connect my Iphone to the ESP32. Here, I designed a simple cont
 <img width="400" height="600" alt="image" src="https://github.com/FatimaMarq14/4443-IoT/blob/main/Assignments/Final/F01/Controller.PNG" />
 
 I followed a youtube tutorial online https://remotexy.com/ and i was able to easily controll my phone to the bluetooth.
+This link showed me that I can make my own custom displays on the LCD as well! https://maxpromer.github.io/LCD-Character-Creator/
 
 ---
 
