@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-For this class, we were tasked with designing a final project using microcontrollers. I started with a basic robotic car kit that could be controlled with a remote. But after learning more about components and how they work, I decided to level up my project and create a **Bluetooth-controlled robot** with an **LCD feedback display**.
+For this class, we were tasked with designing a final project. I started with a basic robotic car kit that could be controlled with a remote. But after learning more about components and how they work, I decided to level up my project and create a **Bluetooth-controlled robot** with an **LCD feedback display**.
 
 At first, I thought it would be simple—connect the components, power them up, and everything would work together. That was *not* the case. I ran into wiring problems, serial communication conflicts, and power limitations. What began as a fun idea became a full hands-on learning experience in debugging, circuit design, and upgrading microcontrollers.
 
